@@ -43,7 +43,7 @@ timing();
                 <section class="login">
                     <div class="login-left">
                         <h2>KASIRKU</h2>
-                        <img src="dist/img/t.png" alt="Logo" class="centered-image">
+                        <img src="dist/img/logo.png" alt="Logo" class="centered-image">
                     </div>
                     <div class="login-right">
                         <img src="dist/img/logo.jpg" alt="Circle Logo" class="centered-image">
