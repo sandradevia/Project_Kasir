@@ -58,16 +58,6 @@ if($chmenu6 >= 1 || $_SESSION['jabatan'] == 'admin'){ ?>
 
                         </li>
 
-    <?php }else{}
-
-if($chmenu7 >= 1 || $_SESSION['jabatan'] == 'admin'){ ?>
-
-                        <li class="treeview">
-                            <a href="operasional"> <i class=" glyphicon glyphicon-flash"></i> <span>Pengeluaran Operasional</span> </a>
-               
-                        </li>
-
-
 <?php }else{}
               if($chmenu8 >= 1 || $_SESSION['jabatan'] == 'admin'){ ?>
 
@@ -149,40 +139,6 @@ if($chmenu3 >= 1 || $_SESSION['jabatan'] == 'admin'){ ?>
                         </li>
 
 
-  <?php }else{}
-
-  
-
-if($chmenu10 >= 1 || $_SESSION['jabatan'] == 'admin'){ ?>
-
-
-              <li class="treeview">
-                            <a href=""> <i class="glyphicon glyphicon-cog"></i> <span>Pengaturan</span> <span class="pull-right-container"> </span> </a>
-                               <ul class="treeview-menu">
-                                <li>
-                                    <a href="set_general"><i class="fa fa-circle-o"></i>General Setting</a>
-                                </li>
-              
-                                <li>
-                                <a href="admin"><i class="fa fa-circle-o"></i>Manajemen User</a>
-                                                                   </li>
-                                                                   <li>
-                                <a href="add_jabatan"><i class="fa fa-circle-o"></i>Jabatan</a>
-                                                                   </li>
-               
-                                                    <li>
-                <a href="set_themes"><i class="fa fa-circle-o"></i>Theme Setting</a>
-                               </li>
-
-
-                                <?php if($demo!=0){?>
-                                                  <li>
-                <a href="license"><i class="fa fa-circle-o"></i>LISENSI</a>
-                                                  </li>
-
-                                              <?php } ?>
-                            </ul>
-                        </li>
 <?php }else{} ?>
 
 
